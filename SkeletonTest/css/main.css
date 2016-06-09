@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	font-family: Consolas, monaco, monospace;
+}
+.nav{
+	background-color: #e67e22;
+	width: 100%;
+}
+
+.title{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: white;
+	padding-left: 10px;
+}
+
+.menulist{
+	line-height: 51px;
+	color: white;
+}
+
+.menulist:hover{
+	cursor: pointer;
+}
+
+.row{
+	margin: 10px 0;
+}
+
+.column,
+.columns{
+	margin-left: 0;
+}
+section div{
+	height: 200px;
+	display: none;
+}
